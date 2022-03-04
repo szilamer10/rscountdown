@@ -21,6 +21,7 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
+
 class Rscountdown extends Module
 {
     protected $config_form = false;
