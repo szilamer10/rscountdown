@@ -1,0 +1,117 @@
+/**
+* Resolution-Studio.ro
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Commercial License
+ * you can't distribute, modify or sell this code
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file
+ * If you need help please contact szilamer.balogh@resolution-studio.ro
+ *
+ * @author    Szilamer <szilamer.balogh@resolution-studio.ro>
+ * @copyright Resolution-Studio.ro
+ * @license   commercial
+*/
+#custom-countdown {
+	background: lightblue;
+	text-align: center;
+	position: relative;
+	display: none;
+	width: 100%;
+	flex-direction: column;
+}
+
+#custom-countdown .promo-text {
+	color: #fff;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 22px 0px 12px;
+	font-weight: 100;
+	justify-self: center;
+	width: 100%;
+}
+
+#custom-countdown #demo {
+	display: flex;
+	align-items: center;
+	color: #fff;
+	flex-direction: row;
+	position: absolute;
+	right: 24px;
+}
+
+#custom-countdown #demo>div {
+	display: flex;
+	flex-direction: column;
+	background-color: #000;
+	margin-right: 12px;
+	width: 50px;
+	height: 50px;
+	align-items: center;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 700;
+	padding-top: 8px;
+}
+
+#custom-countdown #demo>div span {
+	font-size: 8px;
+	font-weight: 100;
+}
+
+#custom-countdown .underline {
+	text-decoration: underline;
+}
+
+#countdown-close svg {
+	fill: #3C3C3C;
+	stroke: #3C3C3C;
+	width: 20px;
+	height: 20px;
+}
+
+#countdown-close {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+#custom-countdown #demo>div:last-child {
+	margin-right: 0px !important;
+}
+
+@media (min-width: 767px) {
+	#custom-countdown .promo-first-row {
+		align-items: center;
+		height: 50px;
+	}
+	#custom-countdown .promo-text-row-two {
+		height: 50px;
+		font-size: 23px;
+	}
+}
+#custom-countdown .promo-first-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#custom-countdown #countdown-close {
+    display: none;
+}
+#custom-countdown .promo-text-row-two {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    height: 50px;
+    align-items: center;
+}
+.promo-two-text{
+	margin-right: 30px;
+}
